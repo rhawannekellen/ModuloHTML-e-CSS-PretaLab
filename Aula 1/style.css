@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+.cabecalho {
+    background-color: #7C71FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.meu-botao{
+    width: hug(113px);
+    background-color: #200065;
+    height: Hug(35.44px);
+    padding: 8px, 14px, 8px, 14px;
+    border-radius:25px;
+    gap: 10px;
+
+}
+
+.inicio{
+    width: 50px;
+    height: 19px;
+    font: 'inter';
+    font-weight: 700;
+    size: 16px;
+    line-height: 19.36px;
+    color: #d9d9d9;
+}
+
+i{
+  width: 25px;
+  height: 19.44px;
+  color:#d9d9d9  
+}
+
+.secao-clientes{
+    flex-shrink: 0;
+    background: #AEBFEB;
+    width: 1440px;
+    height: 616px;
+    flex-shrink: 0;
+}
+
+h3{
+    color: #200065;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.secao-avaliacao {
+    width: 427px;
+    height: 427px;
+    flex-shrink: 0;
+    background: #D4E0FF;
+}
+
+.info-usuario{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.horario{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+li {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+ol{
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    width: 300px;
+    height: 300px;  
+    display: inline-flex;
+    align-items: center;
+    gap: 70px; 
+    
+}
+
+.link-site{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+
+h2{
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #200065;
+}
+
+h1{
+    font-family: 'Abril Fatface';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #200065;
+
+}
+
+h4{
+    color: #1E1E1E;
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.nossos-clientes{
+    display: flex;
+    padding: 8px, 14px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 25px;
+    background: #d9d9d9
+}
+.mulheres-pretas{
+    width: 1440px;
+    height: auto;
+    flex-shrink: 0;
+    background: #D7E2FF;
+
+}
+.secao-fale-conosco{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: #aebfeb;
+    justify-content: center;
+}
+
+.valores{
+    text-align: center;
+    align-items: center;
+    background-color:#200065;
+    font-size: 32px;
+    background-color: #D7E2FF;
+    height: 300px;
+    justify-content: center;
+    width: 1440px;
+    height: 441px;
+    flex-shrink: 0;
+    
+}
+
+.rodape{
+    background-color: #3F3F3F;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+button{
+    border-radius: 10px;
+    border: 1px solid #313131;
+    background: #313131;
+    display: flex;
+    width: 270px;
+    padding: 10px 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+thead{
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #7C71FF;
+    border-radius: 0px 4px 0px 0px;
+    border: 1px solid #1E1E1E;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+tbody{
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 0px;
+    border: 1px solid #1E1E1E;
+    background: #FFF;
+    color: #1E1E1E;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;    
+       
+}
